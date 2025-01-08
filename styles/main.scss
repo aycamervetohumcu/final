@@ -85,6 +85,8 @@ body{
     align-content: end;
 }
 
+/*navigation*/
+
 .navigation {
     width: 100%;
     display: flex;
@@ -239,7 +241,80 @@ body{
 
 .step-title {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 26px;
+    font-family: 'Aleo' sans-serif;
     text-align: center;
 }
+/*grand section*/
 
+.grand-section {
+    background-image: url(/images/3rdpageback.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grand-section-2 {
+    background-image: url(/images/4thpageback.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    color: #FFFFFF;
+    line-height: 1.8;
+    text-align: start;
+    padding: 30px;
+    opacity: 0.8;
+}
+
+.alt-position {
+    margin-left: 50%;
+}
+
+/* Text styles */
+.destination {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.destination-title {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.destination-details {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.action-btn {
+    width: 228px;
+    height: 63px;
+    background-color: #496BFE;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Aleo', sans-serif;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #5474FD;
+    color: black;
+    border: solid rgb(44, 44, 121);
+}
