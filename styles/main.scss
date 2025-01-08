@@ -132,10 +132,13 @@ body{
 
 .about-section {
     background-image: url(/images/2ndpageback.jpg);
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
     min-height: 100vh;
-    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 
 .content-why-choose-us {
@@ -203,3 +206,48 @@ body{
         margin-left: 3rem;
     }
 }
+
+/*search select choose*/
+
+.steps-section {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+}
+
+.steps-container {
+    display: flex;
+    gap: 5%;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-box:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.step-box i {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #5474FD;
+}
+
+.step-box search-step{
+    color: #5474FD;
+}
+
+.step-box select-step{
+    color: rgb(219, 61, 61);
+}
+
+.step-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+
