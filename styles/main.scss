@@ -113,7 +113,7 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 2rem; /* liste elemanları arası boşluk */
+    gap: 2rem; 
     
     li {
         a {
@@ -125,5 +125,81 @@ body{
                 text-decoration: underline;
             }
         }
+    }
+}
+
+/*why choose us*/
+
+.about-section {
+    background-image: url(/images/2ndpageback.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.content-why-choose-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.description-block {
+    flex: 1;
+    max-width: 550px;
+}
+
+.section-heading {
+    font-family: 'Aleo' sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.description-content {
+    font-family: 'josefin sans';
+    font-size: 16px;
+    line-height: 1.6;
+    color: #E8E8E8;
+
+    p {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.discover-button {
+    background-color: #496BFE; 
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 16px;
+    font-family: 'Aleo' sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #496BFE;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(75, 114, 230, 0.3);
+    }
+}
+
+.visual-block {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .bottom-image {
+        margin-left: 3rem;
     }
 }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -134,7 +133,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 2rem; /* liste elemanları arası boşluk */
+  gap: 2rem;
 }
 .ul-middle li a {
   color: #FFFFFF;
@@ -143,4 +142,93 @@ body {
 }
 .ul-middle li a:hover {
   text-decoration: underline;
+}
+
+/*why choose us*/
+.about-section {
+  background-image: url(/images/2ndpageback.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.content-why-choose-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+}
+
+.description-block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 550px;
+}
+
+.section-heading {
+  font-family: "Aleo" sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+}
+
+.description-content {
+  font-family: "josefin sans";
+  font-size: 16px;
+  line-height: 1.6;
+  color: #E8E8E8;
+}
+.description-content p {
+  margin-bottom: 1.5rem;
+}
+
+.discover-button {
+  background-color: #496BFE;
+  color: #FFFFFF;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 16px;
+  font-family: "Aleo" sans-serif;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.discover-button:hover {
+  background-color: #496BFE;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 4px 15px rgba(75, 114, 230, 0.3);
+          box-shadow: 0 4px 15px rgba(75, 114, 230, 0.3);
+}
+
+.visual-block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+.visual-block img {
+  max-width: 100%;
+  height: auto;
+}
+.visual-block .bottom-image {
+  margin-left: 3rem;
 }
