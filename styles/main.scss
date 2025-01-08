@@ -33,3 +33,49 @@ body{
     font-family: 'Josefin sans';
 }
 
+.brand-tagline{
+    font-size: 22px;
+    font-family: 'Josefin sans';
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
+.search-wrapper{
+    width: 500px;
+    height: 60px;
+    background-color: #FFFFFF;  
+    flex: 1;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.search-button{
+    width: 153px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #5474FD;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.search-button:hover{
+    color: #496BFE;
+    cursor: pointer;
+    color: black;
+    background-color:#5474FD;
+    border: solid rgb(44, 44, 121);
+
+}
+
+.fa-sharp-duotone {
+    justify-content: flex-end;
+
+}
+
+.scroll-down{
+    margin-top: 20%;
+    
+}
