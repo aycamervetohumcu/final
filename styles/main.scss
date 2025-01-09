@@ -329,6 +329,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;  
+    margin-bottom: 0;
 }
 
 .tourist-heading{
@@ -373,5 +374,71 @@ body{
 
 .fa-quote-left{
     font-size: 35px;
+    color: #5474FD;
+}
+
+/* Footer Section */
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    color: #FFFFFF;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.footer-box {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer-brand {
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-tagline {
+    font-size: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.social-list li {
+    cursor: pointer;
+}
+
+.social-list i {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-list .fa-facebook-f:hover {
+    color: #5474FD;
+}
+
+.social-list .fa-twitter:hover {
+    color: #5474FD;
+}
+
+.social-list .fa-linkedin-in:hover {
+    color: #5474FD;
+}
+
+.social-list .fa-youtube:hover {
+    color: #5474FD;
+}
+
+.social-list .fa-pinterest:hover {
     color: #5474FD;
 }
